@@ -21,9 +21,9 @@ def laipsnis():
         print(f'{sk} kvadratas: {sk**2}')
         ent.delete(0, END)
         kvad=sk**2
-        zyma['text']=kvad 
+        zyma['text']=kvad #priskirimui
 
-        atv=zyma['text']
+        atv=zyma['text'] #nuskaitimui
         print(atv-100)
 
     else:
